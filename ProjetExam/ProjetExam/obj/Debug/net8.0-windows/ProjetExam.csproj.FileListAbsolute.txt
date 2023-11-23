@@ -32,3 +32,4 @@ C:\2e année\C#\Projet-CSharp\ProjetExam\ProjetExam\bin\Debug\net8.0-windows\run
 C:\2e année\C#\Projet-CSharp\ProjetExam\ProjetExam\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
 C:\2e année\C#\Projet-CSharp\ProjetExam\ProjetExam\obj\Debug\net8.0-windows\ProjetExam.csproj.AssemblyReference.cache
 C:\2e année\C#\Projet-CSharp\ProjetExam\ProjetExam\obj\Debug\net8.0-windows\ProjetExam.csproj.CopyComplete
+C:\2e année\C#\Projet-CSharp\ProjetExam\ProjetExam\obj\Debug\net8.0-windows\ProjetExam.Properties.Resources.resources
