@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             label1 = new Label();
             comboBox1 = new ComboBox();
             label2 = new Label();
@@ -63,6 +64,8 @@
             // 
             // comboBox1
             // 
+            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBox1.FlatStyle = FlatStyle.Flat;
             comboBox1.FormattingEnabled = true;
             comboBox1.Location = new Point(12, 118);
             comboBox1.Name = "comboBox1";
@@ -73,6 +76,7 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label2.Location = new Point(14, 35);
             label2.Name = "label2";
             label2.Size = new Size(50, 20);
@@ -81,6 +85,8 @@
             // 
             // comboBox2
             // 
+            comboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBox2.FlatStyle = FlatStyle.Flat;
             comboBox2.FormattingEnabled = true;
             comboBox2.Location = new Point(169, 118);
             comboBox2.Name = "comboBox2";
@@ -90,6 +96,8 @@
             // 
             // comboBox3
             // 
+            comboBox3.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBox3.FlatStyle = FlatStyle.Flat;
             comboBox3.FormattingEnabled = true;
             comboBox3.Location = new Point(326, 118);
             comboBox3.Name = "comboBox3";
@@ -99,6 +107,8 @@
             // 
             // comboBox4
             // 
+            comboBox4.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBox4.FlatStyle = FlatStyle.Flat;
             comboBox4.FormattingEnabled = true;
             comboBox4.Location = new Point(483, 118);
             comboBox4.Name = "comboBox4";
@@ -108,6 +118,9 @@
             // 
             // comboBox5
             // 
+            comboBox5.BackColor = SystemColors.Window;
+            comboBox5.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBox5.FlatStyle = FlatStyle.Flat;
             comboBox5.FormattingEnabled = true;
             comboBox5.Location = new Point(640, 118);
             comboBox5.Name = "comboBox5";
@@ -126,12 +139,13 @@
             // 
             // button1
             // 
+            button1.BackColor = Color.Transparent;
             button1.Location = new Point(676, 212);
             button1.Name = "button1";
             button1.Size = new Size(94, 29);
             button1.TabIndex = 8;
             button1.Text = "Valider";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // label4
@@ -237,7 +251,9 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.AppWorkspace;
+            BackColor = SystemColors.Control;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 450);
             Controls.Add(label14);
             Controls.Add(label13);
